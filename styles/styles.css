@@ -25,7 +25,6 @@ ul {
 
 .hero {
     display: flex;
-    height: 300px;
     gap: 60px;
 }
 
