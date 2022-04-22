@@ -26,7 +26,8 @@ ul {
 
 .hero {
     display: flex;
-    gap: 60px;
+    align-items: center;
+        gap: 60px;
 }
 
 .header {
