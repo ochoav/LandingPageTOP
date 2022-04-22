@@ -140,6 +140,21 @@ button {
     font-weight: 700;
 }
 
+.call-to-action {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    border-radius: 10px;
+    margin: 80px 15%;
+    padding: 40px 8%;
+    color: white;
+}
+
+.call-to-action button {
+    border: solid white;
+    border-radius: 10px;
+}
+
 .footer {
     padding: 32px 0;
     text-align: center;
