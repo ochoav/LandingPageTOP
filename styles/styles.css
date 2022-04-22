@@ -93,6 +93,7 @@ button {
 .cards {
     color:rgb(84, 83, 83);
     display: flex;
+    flex-wrap: wrap;
     gap: 5%;
     justify-content: center;
 }
