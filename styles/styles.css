@@ -22,8 +22,8 @@ ul {
     background-color: #1f2937;
 }
 
-.header, .hero {
-    padding: 12px 170px 100px;
+.header, .hero, .container {
+    padding: 12px 15% 100px;
 }
 
 .hero {
@@ -72,12 +72,59 @@ button {
     padding: 8px 32px;
 }
 
-img {
+#hero-image {
     background-color: rgb(112, 112, 112);
     color: white;
-    height: 230px;
-    flex: 1;
+    height: 250px;
+    width: 100px;
+    flex: 1 1 auto;
 }
+
+.container {
+    text-align: center;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: #1f2937
+}
+
+.cards {
+    color:rgb(84, 83, 83);
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+}
+
+.card {
+    width: 150px;
+    text-align: center;
+}
+
+.card-image {
+    width: 140px;
+    height: 140px;
+    border: solid #3882f6;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-image #planet-image {
+    width: 100%;
+}
+
+.card-image img {
+    width: 90%;
+    height: 90%;
+}
+
+
 
 .footer {
     padding: 32px 0;
